@@ -1,12 +1,13 @@
 $bckg-image: url(https://www.twincities.com/wp-content/uploads/2018/09/unnamed1.jpg);
 $bckg-image-2: url(https://uptone.pl/wp-content/uploads/2019/03/AMetallica-e1553003935628.jpg);
 $font: 'Lato', sans-serif;
+$color: #d1d1d1;
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: white;
+    color: $color;
 }
 body {
 	margin: 0;
@@ -28,7 +29,7 @@ body {
             position: relative;
             line-height: 100px;
             text-align: center;
-            color: white;
+            color: $color;
             font-size: 50px;
             background-color: rgba(2, 20, 36, 0.52);
         }
@@ -50,7 +51,7 @@ body {
     }
     footer {
     height: 900px;
-    background: $bckg-image;
+    background: $bckg-image-2;
     background-attachment: fixed;
     background-position: 0 -100px;
     background-repeat: no-repeat;
