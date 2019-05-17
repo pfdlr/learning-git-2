@@ -1,59 +1,52 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    color: white;
-}
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white; }
+
 body {
-	margin: 0;
-    font-family: 'Lato', sans-serif;
-    background: url(https://www.twincities.com/wp-content/uploads/2018/09/unnamed1.jpg);
-    background-position: 0 -80px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat
-    
-}
-header {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  background: url(https://www.twincities.com/wp-content/uploads/2018/09/unnamed1.jpg);
+  background-position: 0 -80px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  body header {
     margin: 0;
     height: 55vh;
     width: 100%;
     background: url(https://uptone.pl/wp-content/uploads/2019/03/AMetallica-e1553003935628.jpg);
     background-position: 0 -90px;
     background-attachment: fixed;
-    background-size: cover
-}
- h1 {
-    position: relative;
-    line-height: 100px;
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    background-color: rgba(2, 20, 36, 0.52);
-    }
-h3 {margin-bottom: 50px;}
-.song {
+    background-size: cover; }
+    body header h1 {
+      position: relative;
+      line-height: 100px;
+      text-align: center;
+      color: white;
+      font-size: 50px;
+      background-color: rgba(2, 20, 36, 0.52); }
+    body header h3 {
+      margin-bottom: 50px; }
+  body .song {
     margin: 10px auto;
     width: 300px;
     padding: 30px;
-    background: black;
-}
-p {
-    margin: 30px 0;
-}
-p.indent {
-    margin-left: 30px;
-    
-}
-footer {
+    background: black; }
+    body .song p {
+      margin: 30px 0; }
+    body .song p.indent {
+      margin-left: 30px; }
+  body footer {
     height: 900px;
-    background: url(https://uptone.pl/wp-content/uploads/2019/03/AMetallica-e1553003935628.jpg);
+    background: url(https://www.twincities.com/wp-content/uploads/2018/09/unnamed1.jpg);
     background-attachment: fixed;
     background-position: 0 -100px;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-footer h1 {
-    position: relative;
-    bottom: -80%;
-}
+    background-size: cover; }
+    body footer footer h1 {
+      position: relative;
+      bottom: -80%; }
+
+/*# sourceMappingURL=style.css.map */
