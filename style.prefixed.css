@@ -53,5 +53,6 @@ footer {
     bottom: -80%; }
 
 .test {
+    display: -ms-flexbox;
     display: flex
 }
