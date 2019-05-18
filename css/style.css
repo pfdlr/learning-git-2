@@ -1,0 +1,11 @@
+.mka {
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+}
+
+.mka .subdiv {
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
